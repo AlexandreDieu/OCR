@@ -1,0 +1,12 @@
+# version: '3'
+# services:
+#   redis:
+#     image: redis
+#   quizz:
+#     depends_on:
+#       - redis
+#     image: dockerfacile/app
+#     ports:
+#       - 8000:5000
+#     environment:
+#       - starwars=1
